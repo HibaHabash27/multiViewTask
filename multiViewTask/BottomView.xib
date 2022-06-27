@@ -10,6 +10,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="BottomView" customModule="multiViewTask" customModuleProvider="target">
             <connections>
+                <outlet property="contentView" destination="iN0-l3-epB" id="bRq-fZ-pSF"/>
                 <outlet property="textView" destination="wkv-rY-UtO" id="eqB-04-GOP"/>
             </connections>
         </placeholder>

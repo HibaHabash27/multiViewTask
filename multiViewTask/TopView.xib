@@ -11,6 +11,7 @@
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="TopView" customModule="multiViewTask" customModuleProvider="target">
             <connections>
                 <outlet property="colorsTable" destination="c4Z-1B-bah" id="Jy5-jY-No4"/>
+                <outlet property="contentView" destination="iN0-l3-epB" id="TqG-5v-JoE"/>
             </connections>
         </placeholder>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
