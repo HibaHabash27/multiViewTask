@@ -7,7 +7,7 @@ protocol MyDataSendingDelegateProtocol: AnyObject {
 class TopView: UIView{
     
     @IBOutlet weak var colorsTable: UITableView!
-    var colors = [Color.red,Color.purple,Color.yellow,Color.blue,Color.pink]
+    var colors: [Color] = []
     weak var delegate: MyDataSendingDelegateProtocol? = nil
 
     
@@ -48,7 +48,7 @@ extension TopView: UITableViewDelegate {
 extension TopView: UITableViewDataSource {
         
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return Color.allCases.count
+        return colors.count
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {

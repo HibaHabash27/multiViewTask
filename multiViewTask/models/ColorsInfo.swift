@@ -1,7 +1,7 @@
 import UIKit
 
     
-    public  enum Color: CaseIterable {
+    public  enum ColorInfo: CaseIterable {
         case red
         case pink
         case blue
