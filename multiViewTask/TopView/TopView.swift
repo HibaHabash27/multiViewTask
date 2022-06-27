@@ -1,8 +1,5 @@
 import UIKit
 
-protocol MyDataSendingDelegateProtocol: AnyObject {
-    func sendDataToFirstViewController(color: Color?)
-}
 
 class TopView: UIView{
     
@@ -11,7 +8,7 @@ class TopView: UIView{
     
     private let topViewXibName = "TopView"
     var colors: [Color] = []
-    weak var delegate: MyDataSendingDelegateProtocol? = nil
+    weak var delegate: TopViewDelegate? = nil
 
     
     override init(frame: CGRect) {

@@ -22,6 +22,7 @@
 		2F961B122869CD9300B710B8 /* ColorViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F961B112869CD9300B710B8 /* ColorViewModel.swift */; };
 		2F961B142869DDE300B710B8 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F961B132869DDE300B710B8 /* UIView+Extension.swift */; };
 		2F961B1B2869E2F000B710B8 /* TopView+TableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F961B1A2869E2F000B710B8 /* TopView+TableView.swift */; };
+		2F961B1F2869E61900B710B8 /* TopViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F961B1E2869E61900B710B8 /* TopViewDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +43,7 @@
 		2F961B112869CD9300B710B8 /* ColorViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorViewModel.swift; sourceTree = "<group>"; };
 		2F961B132869DDE300B710B8 /* UIView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
 		2F961B1A2869E2F000B710B8 /* TopView+TableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TopView+TableView.swift"; sourceTree = "<group>"; };
+		2F961B1E2869E61900B710B8 /* TopViewDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopViewDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,8 +76,10 @@
 		2F961ABF286853F400B710B8 /* multiViewTask */ = {
 			isa = PBXGroup;
 			children = (
+				2F961B1C2869E54500B710B8 /* TopView */,
+				2F961B1D2869E55400B710B8 /* BottomView */,
 				2F961B152869DDEB00B710B8 /* Helpers */,
-				2F961B0C28689E8A00B710B8 /* models */,
+				2F961B0C28689E8A00B710B8 /* Models */,
 				2F961AC0286853F400B710B8 /* AppDelegate.swift */,
 				2F961AC2286853F400B710B8 /* SceneDelegate.swift */,
 				2F961B112869CD9300B710B8 /* ColorViewModel.swift */,
@@ -84,21 +88,17 @@
 				2F961AC9286853F600B710B8 /* Assets.xcassets */,
 				2F961ACB286853F600B710B8 /* LaunchScreen.storyboard */,
 				2F961ACE286853F600B710B8 /* Info.plist */,
-				2F961ADA286854EA00B710B8 /* TopView.swift */,
-				2F961AD42868542800B710B8 /* TopView.xib */,
-				2F961ADC286854FA00B710B8 /* BottomView.swift */,
-				2F961AD62868543800B710B8 /* BottomView.xib */,
 			);
 			path = multiViewTask;
 			sourceTree = "<group>";
 		};
-		2F961B0C28689E8A00B710B8 /* models */ = {
+		2F961B0C28689E8A00B710B8 /* Models */ = {
 			isa = PBXGroup;
 			children = (
 				2F961B0D28689EA600B710B8 /* ColorsInfo.swift */,
 				2F961B0F2869B2BD00B710B8 /* Color.swift */,
 			);
-			path = models;
+			path = Models;
 			sourceTree = "<group>";
 		};
 		2F961B152869DDEB00B710B8 /* Helpers */ = {
@@ -114,7 +114,6 @@
 			isa = PBXGroup;
 			children = (
 				2F961B132869DDE300B710B8 /* UIView+Extension.swift */,
-				2F961B1A2869E2F000B710B8 /* TopView+TableView.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -124,6 +123,26 @@
 			children = (
 			);
 			path = Utils;
+			sourceTree = "<group>";
+		};
+		2F961B1C2869E54500B710B8 /* TopView */ = {
+			isa = PBXGroup;
+			children = (
+				2F961ADA286854EA00B710B8 /* TopView.swift */,
+				2F961AD42868542800B710B8 /* TopView.xib */,
+				2F961B1A2869E2F000B710B8 /* TopView+TableView.swift */,
+				2F961B1E2869E61900B710B8 /* TopViewDelegate.swift */,
+			);
+			path = TopView;
+			sourceTree = "<group>";
+		};
+		2F961B1D2869E55400B710B8 /* BottomView */ = {
+			isa = PBXGroup;
+			children = (
+				2F961ADC286854FA00B710B8 /* BottomView.swift */,
+				2F961AD62868543800B710B8 /* BottomView.xib */,
+			);
+			path = BottomView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -208,6 +227,7 @@
 				2F961AC3286853F400B710B8 /* SceneDelegate.swift in Sources */,
 				2F961B142869DDE300B710B8 /* UIView+Extension.swift in Sources */,
 				2F961B122869CD9300B710B8 /* ColorViewModel.swift in Sources */,
+				2F961B1F2869E61900B710B8 /* TopViewDelegate.swift in Sources */,
 				2F961B0E28689EA600B710B8 /* ColorsInfo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -6,34 +6,33 @@ class ViewController: UIViewController {
     @IBOutlet weak var topView: TopView!
     @IBOutlet weak var bottomView: BottomView!
     @IBOutlet var mainView: UIView!
-    
-    private var colorViewModel : ColorViewModel!
-    var colors: [Color] = []
+        
+    lazy var colorViewModel: ColorViewModel = {
+        let model = ColorViewModel()
+        return model
+    }()
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        callToViewModelForUIUpdate()
-        self.topView.setColors(colorViewModel.getColors()) 
+        self.bindViewModel()
+        self.colorViewModel.initalizeColors()
+        self.topView.setColors(self.colorViewModel.getColors())
         self.topView.delegate = self  // here
     }
     
-    func callToViewModelForUIUpdate(){
-          
-          self.colorViewModel =  ColorViewModel()
-          self.colorViewModel.bindColorViewModelToController = {
-              self.updateSomething()
-          }
-      }
-    
-    func updateSomething(){
-        // we have to write the code to communicate with bottom view
+    /** Bind data to UI that returned from the server
+     */
+    private func bindViewModel() {
+
+        self.colorViewModel.onInitilizedColors = {
+            
+        }
     }
-    
 }
 
 
-extension ViewController: MyDataSendingDelegateProtocol {
-    func sendDataToFirstViewController(color: Color?) {
+extension ViewController: TopViewDelegate {
+    func didSelectColor (_ color: Color?) {
         self.bottomView.setColor(color)
     }
 }

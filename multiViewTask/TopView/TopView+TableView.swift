@@ -4,7 +4,7 @@ extension TopView: UITableViewDelegate {
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         let selectedColor = colors[indexPath.row]
         //print(selectedColor)
-        self.delegate?.sendDataToFirstViewController(color: selectedColor)
+        self.delegate?.didSelectColor(selectedColor)
     }
 }
 
