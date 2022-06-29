@@ -23,16 +23,14 @@ extension TopView: UITableViewDelegate,
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: ColorCell.identifier, for: indexPath) as! ColorCell
-        cell.initColor(color: colors[indexPath.row])
-        
-        cell.selectionStyle = .none
+        cell.setColor(color: colors[indexPath.row])
         return cell
     }
     
     func tableView( _ tableView: UITableView, shouldHighlightRowAt indexPath: IndexPath) -> Bool {
         return true
-        
     }
+    
     func tableView( _ tableView: UITableView, didHighlightRowAt indexPath: IndexPath) {
         if let cell = tableView.cellForRow(at: indexPath) as? ColorCell {
             UIView.animate(withDuration: 0.2, animations: {

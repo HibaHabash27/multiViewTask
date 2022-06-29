@@ -24,8 +24,8 @@ class TopView: UIView{
                                  owner: self,
                                  options: nil)
         self.contentView.addInView(container: self)
-        registerCells([ColorCell.identifier], colorsTable)
-        colorsTable.separatorColor = .red
+        self.colorsTable.registerCells(ColorCell.identifier)
+        self.colorsTable.separatorColor = .red
     }
     
     func setColors(_ colors: [Color]) {
