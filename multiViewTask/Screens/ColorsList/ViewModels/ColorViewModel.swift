@@ -1,14 +1,9 @@
 import Foundation
 import UIKit
-
 class ColorViewModel {
     
     var onInitilizedColors: (() -> Void)?
     var colors: [Color] = []
-    
-    init() {
-        
-    }
     
     func initalizeColors() {
         self.colors = [Color(name: "Red", description: "Red desc", value: UIColor.red, textColor: UIColor.white),
@@ -19,16 +14,11 @@ class ColorViewModel {
                        Color(name: "Purple", description: "Purple desc", value: UIColor.purple, textColor: UIColor.white),
                        Color(name: "Gray", description: "Gray desc", value: UIColor.gray, textColor: UIColor.white)]
         
-        
-      
-        
         self.onInitilizedColors?()
     }
     
     func getColors() -> [Color] {
         return self.colors
     }
-    
-    
 }
 

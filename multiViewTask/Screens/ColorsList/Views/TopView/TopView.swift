@@ -1,6 +1,4 @@
 import UIKit
-
-
 class TopView: UIView{
     
     @IBOutlet private weak var contentView: UIView!
@@ -8,8 +6,8 @@ class TopView: UIView{
     
     private let topViewXibName = "TopView"
     var colors: [Color] = []
-    weak var delegate: TopViewDelegate? = nil
-
+    weak var delegate: TopViewDelegate?
+    
     
     override init(frame: CGRect) {
         super.init(frame: frame)
@@ -21,23 +19,17 @@ class TopView: UIView{
         self.commonInit()
     }
     
-  
-    
     private func commonInit() {
         Bundle.main.loadNibNamed(self.topViewXibName,
                                  owner: self,
                                  options: nil)
         self.contentView.addInView(container: self)
-        
-        colorsTable.register(UITableViewCell.self, forCellReuseIdentifier: "cell")
-        colorsTable.delegate = self
-        colorsTable.dataSource = self
-        }
-    
+        registerCells([ColorCell.identifier], colorsTable)
+        colorsTable.separatorColor = .red
+    }
     
     func setColors(_ colors: [Color]) {
         self.colors = colors
-        
     }
 }
 
