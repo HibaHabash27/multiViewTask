@@ -49,7 +49,7 @@ extension UIView {
     }
     
     func addSeparatorInView(container: UIView) {
-        self.backgroundColor = UIColor(white: 0, alpha: 0.3)
+        self.backgroundColor = .lightGray
         self.translatesAutoresizingMaskIntoConstraints = false
 //        self.frame = container.frame
         container.addSubview(self)

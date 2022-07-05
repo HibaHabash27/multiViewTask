@@ -22,11 +22,14 @@
 		2F961B122869CD9300B710B8 /* ColorViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F961B112869CD9300B710B8 /* ColorViewModel.swift */; };
 		2F961B142869DDE300B710B8 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F961B132869DDE300B710B8 /* UIView+Extension.swift */; };
 		2F961B1B2869E2F000B710B8 /* TopView+TableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F961B1A2869E2F000B710B8 /* TopView+TableView.swift */; };
-		2F961B1F2869E61900B710B8 /* TopViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F961B1E2869E61900B710B8 /* TopViewDelegate.swift */; };
 		2F961B2A286AF59700B710B8 /* ColorCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F961B28286AF59700B710B8 /* ColorCell.swift */; };
 		2F961B2B286AF59700B710B8 /* ColorCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2F961B29286AF59700B710B8 /* ColorCell.xib */; };
 		2F961B30286C598E00B710B8 /* DrawingUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F961B2F286C598E00B710B8 /* DrawingUtils.swift */; };
 		2F961B32286C5A6C00B710B8 /* UITableView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F961B31286C5A6C00B710B8 /* UITableView+Extension.swift */; };
+		2F961B37286C630700B710B8 /* ColorTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F961B35286C630700B710B8 /* ColorTableViewController.swift */; };
+		2F961B3A286C688100B710B8 /* ColorInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F961B39286C688100B710B8 /* ColorInfoViewController.swift */; };
+		2F961B3E286C750600B710B8 /* ColorTable+TableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F961B3D286C750600B710B8 /* ColorTable+TableView.swift */; };
+		2F961B42286DDD0D00B710B8 /* TopViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F961B41286DDD0D00B710B8 /* TopViewDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,11 +50,14 @@
 		2F961B112869CD9300B710B8 /* ColorViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorViewModel.swift; sourceTree = "<group>"; };
 		2F961B132869DDE300B710B8 /* UIView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
 		2F961B1A2869E2F000B710B8 /* TopView+TableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TopView+TableView.swift"; sourceTree = "<group>"; };
-		2F961B1E2869E61900B710B8 /* TopViewDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopViewDelegate.swift; sourceTree = "<group>"; };
 		2F961B28286AF59700B710B8 /* ColorCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorCell.swift; sourceTree = "<group>"; };
 		2F961B29286AF59700B710B8 /* ColorCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ColorCell.xib; sourceTree = "<group>"; };
 		2F961B2F286C598E00B710B8 /* DrawingUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingUtils.swift; sourceTree = "<group>"; };
 		2F961B31286C5A6C00B710B8 /* UITableView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+Extension.swift"; sourceTree = "<group>"; };
+		2F961B35286C630700B710B8 /* ColorTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorTableViewController.swift; sourceTree = "<group>"; };
+		2F961B39286C688100B710B8 /* ColorInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorInfoViewController.swift; sourceTree = "<group>"; };
+		2F961B3D286C750600B710B8 /* ColorTable+TableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ColorTable+TableView.swift"; sourceTree = "<group>"; };
+		2F961B41286DDD0D00B710B8 /* TopViewDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TopViewDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,7 +140,6 @@
 		2F961B1C2869E54500B710B8 /* TopView */ = {
 			isa = PBXGroup;
 			children = (
-				2F961B2E286C4A1C00B710B8 /* ColorCell */,
 				2F961ADA286854EA00B710B8 /* TopView.swift */,
 				2F961AD42868542800B710B8 /* TopView.xib */,
 				2F961B1A2869E2F000B710B8 /* TopView+TableView.swift */,
@@ -181,6 +186,9 @@
 		2F961B23286AF10300B710B8 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				2F961B2E286C4A1C00B710B8 /* ColorCell */,
+				2F961B34286C620E00B710B8 /* ColorDescriptionView */,
+				2F961B33286C61FE00B710B8 /* ColorTableView */,
 				2F961B1C2869E54500B710B8 /* TopView */,
 				2F961B1D2869E55400B710B8 /* BottomView */,
 				2F961AC4286853F400B710B8 /* ViewController.swift */,
@@ -199,7 +207,7 @@
 		2F961B25286AF11400B710B8 /* Delegates */ = {
 			isa = PBXGroup;
 			children = (
-				2F961B1E2869E61900B710B8 /* TopViewDelegate.swift */,
+				2F961B41286DDD0D00B710B8 /* TopViewDelegate.swift */,
 			);
 			path = Delegates;
 			sourceTree = "<group>";
@@ -211,6 +219,23 @@
 				2F961B29286AF59700B710B8 /* ColorCell.xib */,
 			);
 			path = ColorCell;
+			sourceTree = "<group>";
+		};
+		2F961B33286C61FE00B710B8 /* ColorTableView */ = {
+			isa = PBXGroup;
+			children = (
+				2F961B35286C630700B710B8 /* ColorTableViewController.swift */,
+				2F961B3D286C750600B710B8 /* ColorTable+TableView.swift */,
+			);
+			path = ColorTableView;
+			sourceTree = "<group>";
+		};
+		2F961B34286C620E00B710B8 /* ColorDescriptionView */ = {
+			isa = PBXGroup;
+			children = (
+				2F961B39286C688100B710B8 /* ColorInfoViewController.swift */,
+			);
+			path = ColorDescriptionView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -289,6 +314,7 @@
 			files = (
 				2F961B1B2869E2F000B710B8 /* TopView+TableView.swift in Sources */,
 				2F961ADB286854EA00B710B8 /* TopView.swift in Sources */,
+				2F961B3A286C688100B710B8 /* ColorInfoViewController.swift in Sources */,
 				2F961B32286C5A6C00B710B8 /* UITableView+Extension.swift in Sources */,
 				2F961AC5286853F400B710B8 /* ViewController.swift in Sources */,
 				2F961B102869B2BD00B710B8 /* Color.swift in Sources */,
@@ -296,10 +322,12 @@
 				2F961B2A286AF59700B710B8 /* ColorCell.swift in Sources */,
 				2F961AC1286853F400B710B8 /* AppDelegate.swift in Sources */,
 				2F961B30286C598E00B710B8 /* DrawingUtils.swift in Sources */,
+				2F961B42286DDD0D00B710B8 /* TopViewDelegate.swift in Sources */,
 				2F961AC3286853F400B710B8 /* SceneDelegate.swift in Sources */,
 				2F961B142869DDE300B710B8 /* UIView+Extension.swift in Sources */,
 				2F961B122869CD9300B710B8 /* ColorViewModel.swift in Sources */,
-				2F961B1F2869E61900B710B8 /* TopViewDelegate.swift in Sources */,
+				2F961B3E286C750600B710B8 /* ColorTable+TableView.swift in Sources */,
+				2F961B37286C630700B710B8 /* ColorTableViewController.swift in Sources */,
 				2F961B0E28689EA600B710B8 /* ColorsInfo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

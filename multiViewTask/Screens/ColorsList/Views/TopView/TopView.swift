@@ -3,7 +3,6 @@ class TopView: UIView{
     
     @IBOutlet private weak var contentView: UIView!
     @IBOutlet weak var colorsTable: UITableView!
-    
     private let topViewXibName = "TopView"
     var colors: [Color] = []
     weak var delegate: TopViewDelegate?
@@ -31,6 +30,8 @@ class TopView: UIView{
     func setColors(_ colors: [Color]) {
         self.colors = colors
     }
+    
+    
 }
 
 
