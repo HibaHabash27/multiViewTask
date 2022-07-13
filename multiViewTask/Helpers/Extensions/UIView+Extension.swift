@@ -49,7 +49,7 @@ extension UIView {
     }
     
     func addSeparatorInView(container: UIView) {
-        self.backgroundColor = UIColor(white: 0, alpha: 0.3)
+        self.backgroundColor = .lightGray
         self.translatesAutoresizingMaskIntoConstraints = false
 //        self.frame = container.frame
         container.addSubview(self)
@@ -65,12 +65,39 @@ extension UIView {
     }
     
     func circledCorners() {
-        self.layer.cornerRadius = self.frame.height / 2
+        self.layer.cornerRadius = self.frame.height / 2 //check if something here needs to be fixed 
     }
     
-    func addBorder(_ width: CGFloat = DrawingUtils.getBorderHeight()) {
+    func addBorder(_ width: CGFloat = DrawingUtils.getBorderHeight(), color: UIColor = UIColor.black) {
         self.layer.borderWidth = width
-        self.layer.borderColor = UIColor.black.cgColor
+        self.layer.borderColor = color.cgColor
+    }
+    
+
+    
+    func dropShadow(scale: Bool = true) {
+      layer.masksToBounds = false
+      layer.shadowColor = UIColor.black.cgColor
+      layer.shadowOpacity = 0.2
+      layer.shadowOffset = CGSize(width: -1, height: 1)
+        layer.shadowRadius = 0.5
+        
+      layer.shadowPath = UIBezierPath(rect: bounds).cgPath
+      layer.shouldRasterize = true
+      layer.rasterizationScale = scale ? UIScreen.main.scale : 1
+    }
+
+
+    func dropShadow(color: UIColor, opacity: Float = 0.5, offSet: CGSize = CGSize(width: -1, height: 1), radius: CGFloat = 1, scale: Bool = true) {
+      layer.masksToBounds = false
+      layer.shadowColor = color.cgColor
+      layer.shadowOpacity = opacity
+      layer.shadowOffset = offSet
+      layer.shadowRadius = radius
+
+      layer.shadowPath = UIBezierPath(rect: self.bounds).cgPath
+      layer.shouldRasterize = true
+      layer.rasterizationScale = scale ? UIScreen.main.scale : 1
     }
     
 }

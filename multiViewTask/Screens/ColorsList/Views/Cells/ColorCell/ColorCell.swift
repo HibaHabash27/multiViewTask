@@ -31,7 +31,7 @@ class ColorCell: UITableViewCell {
     }
     
     func unhighlight() {
-        self.containerView.backgroundColor = .white
+        self.containerView.backgroundColor = UIColor(named: "cellColor")
     }
     
 }

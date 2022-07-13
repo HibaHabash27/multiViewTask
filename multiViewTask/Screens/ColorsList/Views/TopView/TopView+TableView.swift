@@ -16,7 +16,6 @@ extension TopView: UITableViewDelegate,
         self.delegate?.didSelectColor(selectedColor)
     }
         
-        
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return colors.count
     }
