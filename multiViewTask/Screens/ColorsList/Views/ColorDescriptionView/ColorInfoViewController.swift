@@ -7,6 +7,7 @@ class ColorInfoViewController: UIViewController {
     @IBOutlet weak var colorDescriptionTextView: UITextView!
     
     var color: Color?
+<<<<<<< HEAD
     override func viewDidLoad() {
         super.viewDidLoad()
         self.initElements()
@@ -18,6 +19,13 @@ class ColorInfoViewController: UIViewController {
                                                                   right: 10);
 
 
+=======
+    
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        self.initElements()
+>>>>>>> 44b82ac510f13f9cbb7cae1ebf7de5250ec8d53f
     }
     
     override func viewWillAppear(_ animated: Bool) {
@@ -26,15 +34,24 @@ class ColorInfoViewController: UIViewController {
         nav?.tintColor = color?.textColor
         if (color?.textColor == .white){
             navigationController?.navigationBar.barStyle = .black
+<<<<<<< HEAD
 
 
         }
         else{
             
+=======
+        }
+        else{
+        
+            UIApplication.shared.statusBarStyle = .darkContent // This does not work
+
+>>>>>>> 44b82ac510f13f9cbb7cae1ebf7de5250ec8d53f
         }
     }
     
 
+<<<<<<< HEAD
     override func viewWillDisappear(_ animated: Bool) {
         navigationController?.navigationBar.barStyle = .default
         navigationController?.navigationBar.titleTextAttributes = [.foregroundColor: UIColor.black]
@@ -43,6 +60,11 @@ class ColorInfoViewController: UIViewController {
     }
     
     func initElements() {
+=======
+    
+    func initElements() {
+        
+>>>>>>> 44b82ac510f13f9cbb7cae1ebf7de5250ec8d53f
         self.colorNameLabel.text = self.color?.name
         self.colorNameLabel.textColor = self.color?.textColor
         self.colorDescriptionTextView?.text = self.color?.description
@@ -50,6 +72,10 @@ class ColorInfoViewController: UIViewController {
         self.colorDescriptionTextView.textColor = self.color?.textColor
         self.colorDescriptionTextView.backgroundColor = self.color?.value
     
+<<<<<<< HEAD
+=======
+        
+>>>>>>> 44b82ac510f13f9cbb7cae1ebf7de5250ec8d53f
     }
 
 }

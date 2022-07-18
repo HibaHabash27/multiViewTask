@@ -30,11 +30,14 @@ class TopView: UIView{
         self.colors = colors
     }
     
+<<<<<<< HEAD
     func reloadView(colors: [Color]) {
         self.colors = colors
         self.colorsTable.reloadData()
     }
     
+=======
+>>>>>>> 44b82ac510f13f9cbb7cae1ebf7de5250ec8d53f
     
 }
 
