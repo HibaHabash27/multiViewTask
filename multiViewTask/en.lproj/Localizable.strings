@@ -1,0 +1,15 @@
+
+
+"colorsViewController.title" = "Color Table";
+"addViewController.titleCell.title" = "Name";
+"addViewController.DescriptionCell.title" = "Description";
+"addViewController.colorCollectionCell.title" = "Color";
+"addViewController.title" = "Add Color";
+"editViewController.title" = "Edit Color";
+"colorTableViewController.EmptyView.title" = "You don't have any Colors.";
+"colorTableViewController.emptyView.message" = "Your Colors will be shown here.";
+"colorInfo.confirmDeleteMessage.title" = "Delete Color";
+"colorInfo.confirmDeleteMessage.message" = "Are you sure you want to delete this color";
+"colorInfo.confirmDeleteMessage.deleteButton" = "Delete";
+"colorInfo.confirmDeleteMessage.cancelButton" = "Cancel";
+

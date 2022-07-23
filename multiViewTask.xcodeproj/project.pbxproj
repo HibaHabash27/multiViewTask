@@ -7,51 +7,98 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2F6579FE288445D600C8D005 /* ValidateColorInputViewModel .swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F6579FD288445D600C8D005 /* ValidateColorInputViewModel .swift */; };
+		2F657A0028844F0700C8D005 /* ValidateInputDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F6579FF28844F0700C8D005 /* ValidateInputDelegate.swift */; };
+		2F657A022885571E00C8D005 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F657A012885571E00C8D005 /* Constants.swift */; };
+		2F657A0528858D6B00C8D005 /* AddColorViewModel .swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F657A0428858D6B00C8D005 /* AddColorViewModel .swift */; };
+		2F657A072886EC9600C8D005 /* ColorTable+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F657A062886EC9600C8D005 /* ColorTable+Extension.swift */; };
+		2F657A092886F7E400C8D005 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F657A082886F7E400C8D005 /* UIColor+Extension.swift */; };
+		2F657A192886FCAC00C8D005 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2F657A1B2886FCAC00C8D005 /* Localizable.strings */; };
+		2F694C78288748290072E27E /* String+Localizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F694C77288748290072E27E /* String+Localizable.swift */; };
+		2F694C7A2887F1E20072E27E /* ColorInfoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F694C792887F1E20072E27E /* ColorInfoViewModel.swift */; };
+		2F694C7C28882C9B0072E27E /* NotificationNameExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F694C7B28882C9B0072E27E /* NotificationNameExtension.swift */; };
+		2F694C7F288C7AAD0072E27E /* ColorsCD.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2F694C7D288C7AAD0072E27E /* ColorsCD.xcdatamodeld */; };
 		2F961AC1286853F400B710B8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F961AC0286853F400B710B8 /* AppDelegate.swift */; };
 		2F961AC3286853F400B710B8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F961AC2286853F400B710B8 /* SceneDelegate.swift */; };
-		2F961AC5286853F400B710B8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F961AC4286853F400B710B8 /* ViewController.swift */; };
 		2F961AC8286853F400B710B8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F961AC6286853F400B710B8 /* Main.storyboard */; };
 		2F961ACA286853F600B710B8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F961AC9286853F600B710B8 /* Assets.xcassets */; };
 		2F961ACD286853F600B710B8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F961ACB286853F600B710B8 /* LaunchScreen.storyboard */; };
-		2F961AD52868542800B710B8 /* TopView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2F961AD42868542800B710B8 /* TopView.xib */; };
-		2F961AD72868543800B710B8 /* BottomView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2F961AD62868543800B710B8 /* BottomView.xib */; };
-		2F961ADB286854EA00B710B8 /* TopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F961ADA286854EA00B710B8 /* TopView.swift */; };
-		2F961ADD286854FA00B710B8 /* BottomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F961ADC286854FA00B710B8 /* BottomView.swift */; };
-		2F961B0E28689EA600B710B8 /* ColorsInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F961B0D28689EA600B710B8 /* ColorsInfo.swift */; };
 		2F961B102869B2BD00B710B8 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F961B0F2869B2BD00B710B8 /* Color.swift */; };
 		2F961B122869CD9300B710B8 /* ColorViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F961B112869CD9300B710B8 /* ColorViewModel.swift */; };
 		2F961B142869DDE300B710B8 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F961B132869DDE300B710B8 /* UIView+Extension.swift */; };
-		2F961B1B2869E2F000B710B8 /* TopView+TableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F961B1A2869E2F000B710B8 /* TopView+TableView.swift */; };
-		2F961B1F2869E61900B710B8 /* TopViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F961B1E2869E61900B710B8 /* TopViewDelegate.swift */; };
 		2F961B2A286AF59700B710B8 /* ColorCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F961B28286AF59700B710B8 /* ColorCell.swift */; };
 		2F961B2B286AF59700B710B8 /* ColorCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2F961B29286AF59700B710B8 /* ColorCell.xib */; };
 		2F961B30286C598E00B710B8 /* DrawingUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F961B2F286C598E00B710B8 /* DrawingUtils.swift */; };
 		2F961B32286C5A6C00B710B8 /* UITableView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F961B31286C5A6C00B710B8 /* UITableView+Extension.swift */; };
+		2F961B37286C630700B710B8 /* ColorTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F961B35286C630700B710B8 /* ColorTableViewController.swift */; };
+		2F961B3A286C688100B710B8 /* ColorInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F961B39286C688100B710B8 /* ColorInfoViewController.swift */; };
+		2F961B4428717C3C00B710B8 /* UIStoryboardExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F961B4328717C3B00B710B8 /* UIStoryboardExtension.swift */; };
+		2F961B4B287193B100B710B8 /* TitleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F961B49287193B100B710B8 /* TitleTableViewCell.swift */; };
+		2F961B4C287193B100B710B8 /* TitleTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2F961B4A287193B100B710B8 /* TitleTableViewCell.xib */; };
+		2F961B51287193D700B710B8 /* DescriptionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F961B4F287193D700B710B8 /* DescriptionTableViewCell.swift */; };
+		2F961B52287193D700B710B8 /* DescriptionTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2F961B50287193D700B710B8 /* DescriptionTableViewCell.xib */; };
+		2F961B55287193EB00B710B8 /* FavTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F961B53287193EB00B710B8 /* FavTableViewCell.swift */; };
+		2F961B56287193EB00B710B8 /* FavTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2F961B54287193EB00B710B8 /* FavTableViewCell.xib */; };
+		2F961B5E28719E1700B710B8 /* AddColorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F961B5C28719E1700B710B8 /* AddColorViewController.swift */; };
+		2F961B5F28719E1700B710B8 /* AddColorViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2F961B5D28719E1700B710B8 /* AddColorViewController.xib */; };
+		2F961B612871A0A500B710B8 /* AddColor+TableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F961B602871A0A500B710B8 /* AddColor+TableView.swift */; };
+		2F961B632871B2BC00B710B8 /* UIViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F961B622871B2BC00B710B8 /* UIViewControllerExtension.swift */; };
+		2F961B652871C72F00B710B8 /* FavCell+DataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F961B642871C72F00B710B8 /* FavCell+DataSource.swift */; };
+		2F961B682871CB2700B710B8 /* FavColorCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F961B662871CB2700B710B8 /* FavColorCell.swift */; };
+		2F961B692871CB2700B710B8 /* FavColorCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2F961B672871CB2700B710B8 /* FavColorCell.xib */; };
+		2F961B6C2871D33700B710B8 /* UICollectionView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F961B6B2871D33700B710B8 /* UICollectionView+Extension.swift */; };
+		2F961B7228757C1200B710B8 /* FavColorViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F961B7128757C1200B710B8 /* FavColorViewModel.swift */; };
+		2F9EFE5728800E3000D2E262 /* AddColorDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F9EFE5628800E3000D2E262 /* AddColorDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2F6579FD288445D600C8D005 /* ValidateColorInputViewModel .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ValidateColorInputViewModel .swift"; sourceTree = "<group>"; };
+		2F6579FF28844F0700C8D005 /* ValidateInputDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidateInputDelegate.swift; sourceTree = "<group>"; };
+		2F657A012885571E00C8D005 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		2F657A0428858D6B00C8D005 /* AddColorViewModel .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AddColorViewModel .swift"; sourceTree = "<group>"; };
+		2F657A062886EC9600C8D005 /* ColorTable+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ColorTable+Extension.swift"; sourceTree = "<group>"; };
+		2F657A082886F7E400C8D005 /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		2F657A1A2886FCAC00C8D005 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		2F657A1C2886FCE300C8D005 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Main.strings; sourceTree = "<group>"; };
+		2F657A1D2886FCE400C8D005 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		2F657A1E2886FCE400C8D005 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Localizable.strings; sourceTree = "<group>"; };
+		2F694C77288748290072E27E /* String+Localizable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Localizable.swift"; sourceTree = "<group>"; };
+		2F694C792887F1E20072E27E /* ColorInfoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorInfoViewModel.swift; sourceTree = "<group>"; };
+		2F694C7B28882C9B0072E27E /* NotificationNameExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationNameExtension.swift; sourceTree = "<group>"; };
+		2F694C7E288C7AAD0072E27E /* ColorsCD.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ColorsCD.xcdatamodel; sourceTree = "<group>"; };
 		2F961ABD286853F400B710B8 /* multiViewTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = multiViewTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F961AC0286853F400B710B8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2F961AC2286853F400B710B8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		2F961AC4286853F400B710B8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		2F961AC7286853F400B710B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2F961AC9286853F600B710B8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2F961ACC286853F600B710B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2F961ACE286853F600B710B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2F961AD42868542800B710B8 /* TopView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TopView.xib; sourceTree = "<group>"; };
-		2F961AD62868543800B710B8 /* BottomView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BottomView.xib; sourceTree = "<group>"; };
-		2F961ADA286854EA00B710B8 /* TopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopView.swift; sourceTree = "<group>"; };
-		2F961ADC286854FA00B710B8 /* BottomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomView.swift; sourceTree = "<group>"; };
-		2F961B0D28689EA600B710B8 /* ColorsInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorsInfo.swift; sourceTree = "<group>"; };
 		2F961B0F2869B2BD00B710B8 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
 		2F961B112869CD9300B710B8 /* ColorViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorViewModel.swift; sourceTree = "<group>"; };
 		2F961B132869DDE300B710B8 /* UIView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
-		2F961B1A2869E2F000B710B8 /* TopView+TableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TopView+TableView.swift"; sourceTree = "<group>"; };
-		2F961B1E2869E61900B710B8 /* TopViewDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopViewDelegate.swift; sourceTree = "<group>"; };
 		2F961B28286AF59700B710B8 /* ColorCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorCell.swift; sourceTree = "<group>"; };
 		2F961B29286AF59700B710B8 /* ColorCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ColorCell.xib; sourceTree = "<group>"; };
 		2F961B2F286C598E00B710B8 /* DrawingUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingUtils.swift; sourceTree = "<group>"; };
 		2F961B31286C5A6C00B710B8 /* UITableView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+Extension.swift"; sourceTree = "<group>"; };
+		2F961B35286C630700B710B8 /* ColorTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorTableViewController.swift; sourceTree = "<group>"; };
+		2F961B39286C688100B710B8 /* ColorInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorInfoViewController.swift; sourceTree = "<group>"; };
+		2F961B4328717C3B00B710B8 /* UIStoryboardExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIStoryboardExtension.swift; sourceTree = "<group>"; };
+		2F961B49287193B100B710B8 /* TitleTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleTableViewCell.swift; sourceTree = "<group>"; };
+		2F961B4A287193B100B710B8 /* TitleTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TitleTableViewCell.xib; sourceTree = "<group>"; };
+		2F961B4F287193D700B710B8 /* DescriptionTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DescriptionTableViewCell.swift; sourceTree = "<group>"; };
+		2F961B50287193D700B710B8 /* DescriptionTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DescriptionTableViewCell.xib; sourceTree = "<group>"; };
+		2F961B53287193EB00B710B8 /* FavTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavTableViewCell.swift; sourceTree = "<group>"; };
+		2F961B54287193EB00B710B8 /* FavTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FavTableViewCell.xib; sourceTree = "<group>"; };
+		2F961B5C28719E1700B710B8 /* AddColorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddColorViewController.swift; sourceTree = "<group>"; };
+		2F961B5D28719E1700B710B8 /* AddColorViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AddColorViewController.xib; sourceTree = "<group>"; };
+		2F961B602871A0A500B710B8 /* AddColor+TableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AddColor+TableView.swift"; sourceTree = "<group>"; };
+		2F961B622871B2BC00B710B8 /* UIViewControllerExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtension.swift; sourceTree = "<group>"; };
+		2F961B642871C72F00B710B8 /* FavCell+DataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FavCell+DataSource.swift"; sourceTree = "<group>"; };
+		2F961B662871CB2700B710B8 /* FavColorCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavColorCell.swift; sourceTree = "<group>"; };
+		2F961B672871CB2700B710B8 /* FavColorCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FavColorCell.xib; sourceTree = "<group>"; };
+		2F961B6B2871D33700B710B8 /* UICollectionView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UICollectionView+Extension.swift"; sourceTree = "<group>"; };
+		2F961B7128757C1200B710B8 /* FavColorViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavColorViewModel.swift; sourceTree = "<group>"; };
+		2F9EFE5628800E3000D2E262 /* AddColorDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddColorDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +112,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2F657A0328858D1C00C8D005 /* ContentCells */ = {
+			isa = PBXGroup;
+			children = (
+				2F961B472871935400B710B8 /* DescriptionCell */,
+				2F961B462871933900B710B8 /* FavCell */,
+				2F961B452871932900B710B8 /* TitleCell */,
+			);
+			path = ContentCells;
+			sourceTree = "<group>";
+		};
 		2F961AB4286853F400B710B8 = {
 			isa = PBXGroup;
 			children = (
@@ -86,23 +143,16 @@
 			children = (
 				2F961B20286AF08200B710B8 /* Screens */,
 				2F961B152869DDEB00B710B8 /* Helpers */,
-				2F961B0C28689E8A00B710B8 /* Models */,
 				2F961AC0286853F400B710B8 /* AppDelegate.swift */,
 				2F961AC2286853F400B710B8 /* SceneDelegate.swift */,
 				2F961AC6286853F400B710B8 /* Main.storyboard */,
 				2F961AC9286853F600B710B8 /* Assets.xcassets */,
+				2F657A1B2886FCAC00C8D005 /* Localizable.strings */,
 				2F961ACB286853F600B710B8 /* LaunchScreen.storyboard */,
 				2F961ACE286853F600B710B8 /* Info.plist */,
+				2F694C7D288C7AAD0072E27E /* ColorsCD.xcdatamodeld */,
 			);
 			path = multiViewTask;
-			sourceTree = "<group>";
-		};
-		2F961B0C28689E8A00B710B8 /* Models */ = {
-			isa = PBXGroup;
-			children = (
-				2F961B0D28689EA600B710B8 /* ColorsInfo.swift */,
-			);
-			path = Models;
 			sourceTree = "<group>";
 		};
 		2F961B152869DDEB00B710B8 /* Helpers */ = {
@@ -110,6 +160,8 @@
 			children = (
 				2F961B172869DE2600B710B8 /* Utils */,
 				2F961B162869DE0B00B710B8 /* Extensions */,
+				2F657A012885571E00C8D005 /* Constants.swift */,
+				2F694C7B28882C9B0072E27E /* NotificationNameExtension.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -117,8 +169,13 @@
 		2F961B162869DE0B00B710B8 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				2F961B622871B2BC00B710B8 /* UIViewControllerExtension.swift */,
+				2F961B4328717C3B00B710B8 /* UIStoryboardExtension.swift */,
 				2F961B132869DDE300B710B8 /* UIView+Extension.swift */,
 				2F961B31286C5A6C00B710B8 /* UITableView+Extension.swift */,
+				2F961B6B2871D33700B710B8 /* UICollectionView+Extension.swift */,
+				2F657A082886F7E400C8D005 /* UIColor+Extension.swift */,
+				2F694C77288748290072E27E /* String+Localizable.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -129,26 +186,6 @@
 				2F961B2F286C598E00B710B8 /* DrawingUtils.swift */,
 			);
 			path = Utils;
-			sourceTree = "<group>";
-		};
-		2F961B1C2869E54500B710B8 /* TopView */ = {
-			isa = PBXGroup;
-			children = (
-				2F961B2E286C4A1C00B710B8 /* ColorCell */,
-				2F961ADA286854EA00B710B8 /* TopView.swift */,
-				2F961AD42868542800B710B8 /* TopView.xib */,
-				2F961B1A2869E2F000B710B8 /* TopView+TableView.swift */,
-			);
-			path = TopView;
-			sourceTree = "<group>";
-		};
-		2F961B1D2869E55400B710B8 /* BottomView */ = {
-			isa = PBXGroup;
-			children = (
-				2F961ADC286854FA00B710B8 /* BottomView.swift */,
-				2F961AD62868543800B710B8 /* BottomView.xib */,
-			);
-			path = BottomView;
 			sourceTree = "<group>";
 		};
 		2F961B20286AF08200B710B8 /* Screens */ = {
@@ -181,9 +218,10 @@
 		2F961B23286AF10300B710B8 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				2F961B1C2869E54500B710B8 /* TopView */,
-				2F961B1D2869E55400B710B8 /* BottomView */,
-				2F961AC4286853F400B710B8 /* ViewController.swift */,
+				2F961B5728719C6400B710B8 /* AddColorViewController */,
+				2F961B34286C620E00B710B8 /* ColorDescriptionView */,
+				2F961B33286C61FE00B710B8 /* ColorTableView */,
+				2F961B482871936200B710B8 /* Cells */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -191,7 +229,7 @@
 		2F961B24286AF10900B710B8 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
-				2F961B112869CD9300B710B8 /* ColorViewModel.swift */,
+				2F6579FD288445D600C8D005 /* ValidateColorInputViewModel .swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -199,7 +237,8 @@
 		2F961B25286AF11400B710B8 /* Delegates */ = {
 			isa = PBXGroup;
 			children = (
-				2F961B1E2869E61900B710B8 /* TopViewDelegate.swift */,
+				2F9EFE5628800E3000D2E262 /* AddColorDelegate.swift */,
+				2F6579FF28844F0700C8D005 /* ValidateInputDelegate.swift */,
 			);
 			path = Delegates;
 			sourceTree = "<group>";
@@ -211,6 +250,84 @@
 				2F961B29286AF59700B710B8 /* ColorCell.xib */,
 			);
 			path = ColorCell;
+			sourceTree = "<group>";
+		};
+		2F961B33286C61FE00B710B8 /* ColorTableView */ = {
+			isa = PBXGroup;
+			children = (
+				2F961B35286C630700B710B8 /* ColorTableViewController.swift */,
+				2F657A062886EC9600C8D005 /* ColorTable+Extension.swift */,
+				2F961B112869CD9300B710B8 /* ColorViewModel.swift */,
+			);
+			path = ColorTableView;
+			sourceTree = "<group>";
+		};
+		2F961B34286C620E00B710B8 /* ColorDescriptionView */ = {
+			isa = PBXGroup;
+			children = (
+				2F961B39286C688100B710B8 /* ColorInfoViewController.swift */,
+				2F694C792887F1E20072E27E /* ColorInfoViewModel.swift */,
+			);
+			path = ColorDescriptionView;
+			sourceTree = "<group>";
+		};
+		2F961B452871932900B710B8 /* TitleCell */ = {
+			isa = PBXGroup;
+			children = (
+				2F961B49287193B100B710B8 /* TitleTableViewCell.swift */,
+				2F961B4A287193B100B710B8 /* TitleTableViewCell.xib */,
+			);
+			path = TitleCell;
+			sourceTree = "<group>";
+		};
+		2F961B462871933900B710B8 /* FavCell */ = {
+			isa = PBXGroup;
+			children = (
+				2F961B6A2871CB3800B710B8 /* FavColorCell */,
+				2F961B54287193EB00B710B8 /* FavTableViewCell.xib */,
+				2F961B53287193EB00B710B8 /* FavTableViewCell.swift */,
+				2F961B642871C72F00B710B8 /* FavCell+DataSource.swift */,
+				2F961B7128757C1200B710B8 /* FavColorViewModel.swift */,
+			);
+			path = FavCell;
+			sourceTree = "<group>";
+		};
+		2F961B472871935400B710B8 /* DescriptionCell */ = {
+			isa = PBXGroup;
+			children = (
+				2F961B4F287193D700B710B8 /* DescriptionTableViewCell.swift */,
+				2F961B50287193D700B710B8 /* DescriptionTableViewCell.xib */,
+			);
+			path = DescriptionCell;
+			sourceTree = "<group>";
+		};
+		2F961B482871936200B710B8 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				2F961B2E286C4A1C00B710B8 /* ColorCell */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		2F961B5728719C6400B710B8 /* AddColorViewController */ = {
+			isa = PBXGroup;
+			children = (
+				2F657A0328858D1C00C8D005 /* ContentCells */,
+				2F961B5C28719E1700B710B8 /* AddColorViewController.swift */,
+				2F961B5D28719E1700B710B8 /* AddColorViewController.xib */,
+				2F961B602871A0A500B710B8 /* AddColor+TableView.swift */,
+				2F657A0428858D6B00C8D005 /* AddColorViewModel .swift */,
+			);
+			path = AddColorViewController;
+			sourceTree = "<group>";
+		};
+		2F961B6A2871CB3800B710B8 /* FavColorCell */ = {
+			isa = PBXGroup;
+			children = (
+				2F961B662871CB2700B710B8 /* FavColorCell.swift */,
+				2F961B672871CB2700B710B8 /* FavColorCell.xib */,
+			);
+			path = FavColorCell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -255,6 +372,7 @@
 			knownRegions = (
 				en,
 				Base,
+				ar,
 			);
 			mainGroup = 2F961AB4286853F400B710B8;
 			productRefGroup = 2F961ABE286853F400B710B8 /* Products */;
@@ -272,10 +390,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				2F961ACD286853F600B710B8 /* LaunchScreen.storyboard in Resources */,
+				2F657A192886FCAC00C8D005 /* Localizable.strings in Resources */,
 				2F961ACA286853F600B710B8 /* Assets.xcassets in Resources */,
-				2F961AD72868543800B710B8 /* BottomView.xib in Resources */,
+				2F961B692871CB2700B710B8 /* FavColorCell.xib in Resources */,
+				2F961B56287193EB00B710B8 /* FavTableViewCell.xib in Resources */,
 				2F961B2B286AF59700B710B8 /* ColorCell.xib in Resources */,
-				2F961AD52868542800B710B8 /* TopView.xib in Resources */,
+				2F961B52287193D700B710B8 /* DescriptionTableViewCell.xib in Resources */,
+				2F961B5F28719E1700B710B8 /* AddColorViewController.xib in Resources */,
+				2F961B4C287193B100B710B8 /* TitleTableViewCell.xib in Resources */,
 				2F961AC8286853F400B710B8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -287,30 +409,58 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2F961B1B2869E2F000B710B8 /* TopView+TableView.swift in Sources */,
-				2F961ADB286854EA00B710B8 /* TopView.swift in Sources */,
+				2F961B3A286C688100B710B8 /* ColorInfoViewController.swift in Sources */,
+				2F657A092886F7E400C8D005 /* UIColor+Extension.swift in Sources */,
 				2F961B32286C5A6C00B710B8 /* UITableView+Extension.swift in Sources */,
-				2F961AC5286853F400B710B8 /* ViewController.swift in Sources */,
+				2F694C78288748290072E27E /* String+Localizable.swift in Sources */,
+				2F657A072886EC9600C8D005 /* ColorTable+Extension.swift in Sources */,
+				2F6579FE288445D600C8D005 /* ValidateColorInputViewModel .swift in Sources */,
+				2F694C7F288C7AAD0072E27E /* ColorsCD.xcdatamodeld in Sources */,
+				2F694C7A2887F1E20072E27E /* ColorInfoViewModel.swift in Sources */,
+				2F694C7C28882C9B0072E27E /* NotificationNameExtension.swift in Sources */,
+				2F657A022885571E00C8D005 /* Constants.swift in Sources */,
 				2F961B102869B2BD00B710B8 /* Color.swift in Sources */,
-				2F961ADD286854FA00B710B8 /* BottomView.swift in Sources */,
+				2F961B6C2871D33700B710B8 /* UICollectionView+Extension.swift in Sources */,
+				2F961B632871B2BC00B710B8 /* UIViewControllerExtension.swift in Sources */,
 				2F961B2A286AF59700B710B8 /* ColorCell.swift in Sources */,
+				2F961B682871CB2700B710B8 /* FavColorCell.swift in Sources */,
 				2F961AC1286853F400B710B8 /* AppDelegate.swift in Sources */,
+				2F961B55287193EB00B710B8 /* FavTableViewCell.swift in Sources */,
 				2F961B30286C598E00B710B8 /* DrawingUtils.swift in Sources */,
 				2F961AC3286853F400B710B8 /* SceneDelegate.swift in Sources */,
+				2F961B652871C72F00B710B8 /* FavCell+DataSource.swift in Sources */,
 				2F961B142869DDE300B710B8 /* UIView+Extension.swift in Sources */,
+				2F961B7228757C1200B710B8 /* FavColorViewModel.swift in Sources */,
 				2F961B122869CD9300B710B8 /* ColorViewModel.swift in Sources */,
-				2F961B1F2869E61900B710B8 /* TopViewDelegate.swift in Sources */,
-				2F961B0E28689EA600B710B8 /* ColorsInfo.swift in Sources */,
+				2F657A0028844F0700C8D005 /* ValidateInputDelegate.swift in Sources */,
+				2F961B4428717C3C00B710B8 /* UIStoryboardExtension.swift in Sources */,
+				2F657A0528858D6B00C8D005 /* AddColorViewModel .swift in Sources */,
+				2F961B5E28719E1700B710B8 /* AddColorViewController.swift in Sources */,
+				2F961B37286C630700B710B8 /* ColorTableViewController.swift in Sources */,
+				2F961B51287193D700B710B8 /* DescriptionTableViewCell.swift in Sources */,
+				2F961B4B287193B100B710B8 /* TitleTableViewCell.swift in Sources */,
+				2F9EFE5728800E3000D2E262 /* AddColorDelegate.swift in Sources */,
+				2F961B612871A0A500B710B8 /* AddColor+TableView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		2F657A1B2886FCAC00C8D005 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2F657A1A2886FCAC00C8D005 /* en */,
+				2F657A1E2886FCE400C8D005 /* ar */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
 		2F961AC6286853F400B710B8 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				2F961AC7286853F400B710B8 /* Base */,
+				2F657A1C2886FCE300C8D005 /* ar */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -319,6 +469,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				2F961ACC286853F600B710B8 /* Base */,
+				2F657A1D2886FCE400C8D005 /* ar */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -330,6 +481,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
@@ -390,6 +542,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
@@ -516,6 +669,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		2F694C7D288C7AAD0072E27E /* ColorsCD.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				2F694C7E288C7AAD0072E27E /* ColorsCD.xcdatamodel */,
+			);
+			currentVersion = 2F694C7E288C7AAD0072E27E /* ColorsCD.xcdatamodel */;
+			path = ColorsCD.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 2F961AB5286853F400B710B8 /* Project object */;
 }

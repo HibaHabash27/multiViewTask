@@ -1,0 +1,21 @@
+/* 
+  Localizable.strings
+  multiViewTask
+
+  Created by fts on 19/07/2022.
+  
+*/
+"colorsViewController.title" = "الألوان" ;
+"addViewController.titleCell.title" = "الاسم";
+"addViewController.DescriptionCell.title" = "الوصف";
+"addViewController.colorCollectionCell.title" = "اللون" ;
+"addViewController.title" = "اضف لون جديد";
+"editViewController.title" = "تعديل اللون";
+"colorTableViewController.EmptyView.title" = "لا يوجد ألوان جديدة";
+"colorTableViewController.emptyView.message" = "الألوان يجب ان تعرض هنا";
+"colorInfo.confirmDeleteMessage.title" = "حذف اللون";
+"colorInfo.confirmDeleteMessage.message" = "هل انت متأكد من حذف هذا اللون";
+"colorInfo.confirmDeleteMessage.deleteButton" = "حذف";
+"colorInfo.confirmDeleteMessage.cancelButton" = "الغاء";
+
+

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="FavColorCell" id="gTV-IL-0wX" customClass="FavColorCell" customModule="multiViewTask" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" restorationIdentifier="FavColorCell" translatesAutoresizingMaskIntoConstraints="NO" id="igX-1C-fYb">
+                        <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Oju-Zn-pkU">
+                                <rect key="frame" x="5" y="5" width="40" height="40"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="L95-ea-Zks" userLabel="selected Indecator">
+                                        <rect key="frame" x="6" y="6" width="28" height="28"/>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                    </view>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="L95-ea-Zks" secondAttribute="trailing" constant="6" id="HQm-dw-NGF"/>
+                                    <constraint firstAttribute="bottom" secondItem="L95-ea-Zks" secondAttribute="bottom" constant="6" id="LPX-ib-ESV"/>
+                                    <constraint firstAttribute="width" constant="40" id="SgD-e7-v3m"/>
+                                    <constraint firstAttribute="height" constant="40" id="VXB-Vf-bme"/>
+                                    <constraint firstItem="L95-ea-Zks" firstAttribute="top" secondItem="Oju-Zn-pkU" secondAttribute="top" constant="6" id="tMp-iY-Rd7"/>
+                                    <constraint firstItem="L95-ea-Zks" firstAttribute="leading" secondItem="Oju-Zn-pkU" secondAttribute="leading" constant="6" id="yKr-al-UBv"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="Oju-Zn-pkU" firstAttribute="centerX" secondItem="igX-1C-fYb" secondAttribute="centerX" id="NxY-87-Fyr"/>
+                            <constraint firstAttribute="bottom" secondItem="Oju-Zn-pkU" secondAttribute="bottom" constant="5" id="R6O-Qb-LmC"/>
+                            <constraint firstItem="Oju-Zn-pkU" firstAttribute="top" secondItem="igX-1C-fYb" secondAttribute="top" constant="5" id="ux6-SG-xoJ"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstItem="igX-1C-fYb" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="Rkb-rE-l7g"/>
+                <constraint firstItem="igX-1C-fYb" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="l4l-AO-Cox"/>
+                <constraint firstAttribute="trailing" secondItem="igX-1C-fYb" secondAttribute="trailing" id="yVs-db-RXZ"/>
+            </constraints>
+            <size key="customSize" width="51" height="49"/>
+            <connections>
+                <outlet property="colorIcon" destination="Oju-Zn-pkU" id="iAg-pG-LMv"/>
+                <outlet property="container" destination="igX-1C-fYb" id="VZh-Bo-Ot8"/>
+                <outlet property="selectedIndecator" destination="L95-ea-Zks" id="DCv-uA-Ngq"/>
+            </connections>
+            <point key="canvasLocation" x="134.78260869565219" y="71.651785714285708"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
