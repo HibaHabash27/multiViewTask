@@ -17,7 +17,6 @@
 		2F694C78288748290072E27E /* String+Localizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F694C77288748290072E27E /* String+Localizable.swift */; };
 		2F694C7A2887F1E20072E27E /* ColorInfoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F694C792887F1E20072E27E /* ColorInfoViewModel.swift */; };
 		2F694C7C28882C9B0072E27E /* NotificationNameExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F694C7B28882C9B0072E27E /* NotificationNameExtension.swift */; };
-		2F694C7F288C7AAD0072E27E /* ColorsCD.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2F694C7D288C7AAD0072E27E /* ColorsCD.xcdatamodeld */; };
 		2F961AC1286853F400B710B8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F961AC0286853F400B710B8 /* AppDelegate.swift */; };
 		2F961AC3286853F400B710B8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F961AC2286853F400B710B8 /* SceneDelegate.swift */; };
 		2F961AC8286853F400B710B8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F961AC6286853F400B710B8 /* Main.storyboard */; };
@@ -49,6 +48,7 @@
 		2F961B6C2871D33700B710B8 /* UICollectionView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F961B6B2871D33700B710B8 /* UICollectionView+Extension.swift */; };
 		2F961B7228757C1200B710B8 /* FavColorViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F961B7128757C1200B710B8 /* FavColorViewModel.swift */; };
 		2F9EFE5728800E3000D2E262 /* AddColorDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F9EFE5628800E3000D2E262 /* AddColorDelegate.swift */; };
+		2FA84813288C859E00AF4E1D /* ColorsCD.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2F694C7D288C7AAD0072E27E /* ColorsCD.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -415,7 +415,7 @@
 				2F694C78288748290072E27E /* String+Localizable.swift in Sources */,
 				2F657A072886EC9600C8D005 /* ColorTable+Extension.swift in Sources */,
 				2F6579FE288445D600C8D005 /* ValidateColorInputViewModel .swift in Sources */,
-				2F694C7F288C7AAD0072E27E /* ColorsCD.xcdatamodeld in Sources */,
+				2FA84813288C859E00AF4E1D /* ColorsCD.xcdatamodeld in Sources */,
 				2F694C7A2887F1E20072E27E /* ColorInfoViewModel.swift in Sources */,
 				2F694C7C28882C9B0072E27E /* NotificationNameExtension.swift in Sources */,
 				2F657A022885571E00C8D005 /* Constants.swift in Sources */,
@@ -679,6 +679,7 @@
 			currentVersion = 2F694C7E288C7AAD0072E27E /* ColorsCD.xcdatamodel */;
 			path = ColorsCD.xcdatamodeld;
 			sourceTree = "<group>";
+			usesTabs = 0;
 			versionGroupType = wrapper.xcdatamodel;
 		};
 /* End XCVersionGroup section */

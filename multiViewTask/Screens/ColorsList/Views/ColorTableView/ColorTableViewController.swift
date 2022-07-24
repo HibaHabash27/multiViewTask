@@ -12,7 +12,6 @@ class ColorTableViewController: UIViewController, UINavigationControllerDelegate
     override func viewDidLoad() {
         super.viewDidLoad()
         self.bindViewModel()
-        self.colorViewModel.initalizeColors()
         initElements()
         notificationCenter.addObserver(self, selector: #selector(answerEdit), name: .editColor, object: nil)
      

@@ -105,11 +105,12 @@ class ColorInfoViewController: UIViewController {
         self.setButtonColor()
         self.colorDescriptionTextView?.text = self.colorInfoViewModel?.getColorDescription()
         self.containerView.backgroundColor = self.colorInfoViewModel?.getColorValue()
-        self.colorDescriptionTextView.textColor = self.colorInfoViewModel?.getTextColor()
         self.colorDescriptionTextView.backgroundColor = self.colorInfoViewModel?.getColorValue()
+
+        self.colorDescriptionTextView.textColor = .black
         self.title = self.colorInfoViewModel?.getColorName()
         let nav = self.navigationController?.navigationBar
-        nav?.tintColor = self.colorInfoViewModel?.getTextColor()
+        nav?.tintColor = .black
         if (self.colorInfoViewModel?.color?.textColor == .white) {
             navigationController?.navigationBar.barStyle = .black
         }

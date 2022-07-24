@@ -68,7 +68,7 @@ class AddColorViewController: UIViewController, ValidateInputDelegate {
     
     @objc func addColor() {
         
-        self.addColorViewModel?.setTextColor(.black)
+        self.addColorViewModel?.setTextColor(.white)
         guard let color = self.addColorViewModel?.getColor() else {return}
         if let isAddMode = self.addColorViewModel?.isAdd{
             if isAddMode{

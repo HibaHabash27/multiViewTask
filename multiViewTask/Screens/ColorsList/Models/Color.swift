@@ -16,6 +16,14 @@ class Color {
         self.textColor = textColor
     }
     
+    init(id: UUID, name: String, description: String, value: UIColor, textColor: UIColor){
+        self.id = id
+        self.name = name
+        self.description = description
+        self.value = value
+        self.textColor = textColor
+    }
+    
     init () {
         self.id = UUID()
         self.name = ""
