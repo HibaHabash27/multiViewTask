@@ -56,8 +56,7 @@ class AddColorViewController: UIViewController, ValidateInputDelegate {
         if let keyboardRect = info?[UIResponder.keyboardFrameBeginUserInfoKey] as? CGRect {
             let keyboardSize = keyboardRect.size
             
-            self.contentTableView.contentInset = UIEdgeInsets(top: 0, left: 0,
-                                                              bottom: keyboardSize.height + 60, right: 0) // 20 is a margin
+            self.contentTableView.contentInset = UIEdgeInsets(top: 0, left: 0, bottom: keyboardSize.height + 60, right: 0) // 20 is a margin
             self.contentTableView.scrollIndicatorInsets = self.contentTableView.contentInset
         }
     }
@@ -110,7 +109,6 @@ extension AddColorViewController:  SendColorDelegate, SendTitleDelegate, SendDes
     func sendDescription(description: String) {
         self.addColorViewModel?.setColorDescription(description)
     }
-
     func sendcolor(colorValue: UIColor) {
         self.addColorViewModel?.setColorValue(colorValue)
     }
