@@ -49,9 +49,17 @@
 		2F961B7228757C1200B710B8 /* FavColorViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F961B7128757C1200B710B8 /* FavColorViewModel.swift */; };
 		2F9EFE5728800E3000D2E262 /* AddColorDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F9EFE5628800E3000D2E262 /* AddColorDelegate.swift */; };
 		2FA84813288C859E00AF4E1D /* ColorsCD.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2F694C7D288C7AAD0072E27E /* ColorsCD.xcdatamodeld */; };
+		2FA848542891407700AF4E1D /* ColorPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FA848522891407700AF4E1D /* ColorPickerViewController.swift */; };
+		2FA848552891407700AF4E1D /* ColorPickerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2FA848532891407700AF4E1D /* ColorPickerViewController.xib */; };
+		2FA8485B2892C1B300AF4E1D /* CustomColorCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FA848592892C1B300AF4E1D /* CustomColorCell.swift */; };
+		2FA8485C2892C1B300AF4E1D /* CustomColorCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2FA8485A2892C1B300AF4E1D /* CustomColorCell.xib */; };
+		2FA8485E2898DCF800AF4E1D /* CustomColorCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FA8485D2898DCF800AF4E1D /* CustomColorCellViewModel.swift */; };
+		5542FD259B6D5C8B9391F06E /* Pods_multiViewTask.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EFD48E29838D36E78DC3EC9 /* Pods_multiViewTask.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		01E657070FC5F74169F57287 /* Pods-multiViewTask.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-multiViewTask.release.xcconfig"; path = "Target Support Files/Pods-multiViewTask/Pods-multiViewTask.release.xcconfig"; sourceTree = "<group>"; };
+		1EFD48E29838D36E78DC3EC9 /* Pods_multiViewTask.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_multiViewTask.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F6579FD288445D600C8D005 /* ValidateColorInputViewModel .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ValidateColorInputViewModel .swift"; sourceTree = "<group>"; };
 		2F6579FF28844F0700C8D005 /* ValidateInputDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidateInputDelegate.swift; sourceTree = "<group>"; };
 		2F657A012885571E00C8D005 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
@@ -99,6 +107,12 @@
 		2F961B6B2871D33700B710B8 /* UICollectionView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UICollectionView+Extension.swift"; sourceTree = "<group>"; };
 		2F961B7128757C1200B710B8 /* FavColorViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavColorViewModel.swift; sourceTree = "<group>"; };
 		2F9EFE5628800E3000D2E262 /* AddColorDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddColorDelegate.swift; sourceTree = "<group>"; };
+		2FA848522891407700AF4E1D /* ColorPickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPickerViewController.swift; sourceTree = "<group>"; };
+		2FA848532891407700AF4E1D /* ColorPickerViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ColorPickerViewController.xib; sourceTree = "<group>"; };
+		2FA848592892C1B300AF4E1D /* CustomColorCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomColorCell.swift; sourceTree = "<group>"; };
+		2FA8485A2892C1B300AF4E1D /* CustomColorCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomColorCell.xib; sourceTree = "<group>"; };
+		2FA8485D2898DCF800AF4E1D /* CustomColorCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomColorCellViewModel.swift; sourceTree = "<group>"; };
+		4D8AC71810492AE62875452D /* Pods-multiViewTask.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-multiViewTask.debug.xcconfig"; path = "Target Support Files/Pods-multiViewTask/Pods-multiViewTask.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +120,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5542FD259B6D5C8B9391F06E /* Pods_multiViewTask.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -115,6 +130,7 @@
 		2F657A0328858D1C00C8D005 /* ContentCells */ = {
 			isa = PBXGroup;
 			children = (
+				2FA848582892C18300AF4E1D /* CustomColorCell */,
 				2F961B472871935400B710B8 /* DescriptionCell */,
 				2F961B462871933900B710B8 /* FavCell */,
 				2F961B452871932900B710B8 /* TitleCell */,
@@ -127,6 +143,8 @@
 			children = (
 				2F961ABF286853F400B710B8 /* multiViewTask */,
 				2F961ABE286853F400B710B8 /* Products */,
+				D8B854ED2B9A2571464545B0 /* Pods */,
+				FAB4174DD4CCFCD5D4D7E270 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -218,9 +236,10 @@
 		2F961B23286AF10300B710B8 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				2F961B5728719C6400B710B8 /* AddColorViewController */,
-				2F961B34286C620E00B710B8 /* ColorDescriptionView */,
-				2F961B33286C61FE00B710B8 /* ColorTableView */,
+				2FA8485128913F1100AF4E1D /* CustomColor */,
+				2F961B5728719C6400B710B8 /* AddColor */,
+				2F961B34286C620E00B710B8 /* ColorDescription */,
+				2F961B33286C61FE00B710B8 /* ColorTable */,
 				2F961B482871936200B710B8 /* Cells */,
 			);
 			path = Views;
@@ -252,23 +271,23 @@
 			path = ColorCell;
 			sourceTree = "<group>";
 		};
-		2F961B33286C61FE00B710B8 /* ColorTableView */ = {
+		2F961B33286C61FE00B710B8 /* ColorTable */ = {
 			isa = PBXGroup;
 			children = (
 				2F961B35286C630700B710B8 /* ColorTableViewController.swift */,
 				2F657A062886EC9600C8D005 /* ColorTable+Extension.swift */,
 				2F961B112869CD9300B710B8 /* ColorViewModel.swift */,
 			);
-			path = ColorTableView;
+			path = ColorTable;
 			sourceTree = "<group>";
 		};
-		2F961B34286C620E00B710B8 /* ColorDescriptionView */ = {
+		2F961B34286C620E00B710B8 /* ColorDescription */ = {
 			isa = PBXGroup;
 			children = (
 				2F961B39286C688100B710B8 /* ColorInfoViewController.swift */,
 				2F694C792887F1E20072E27E /* ColorInfoViewModel.swift */,
 			);
-			path = ColorDescriptionView;
+			path = ColorDescription;
 			sourceTree = "<group>";
 		};
 		2F961B452871932900B710B8 /* TitleCell */ = {
@@ -309,16 +328,14 @@
 			path = Cells;
 			sourceTree = "<group>";
 		};
-		2F961B5728719C6400B710B8 /* AddColorViewController */ = {
+		2F961B5728719C6400B710B8 /* AddColor */ = {
 			isa = PBXGroup;
 			children = (
+				2FA848572891543700AF4E1D /* Controller */,
+				2FA848562891542B00AF4E1D /* ViewModels */,
 				2F657A0328858D1C00C8D005 /* ContentCells */,
-				2F961B5C28719E1700B710B8 /* AddColorViewController.swift */,
-				2F961B5D28719E1700B710B8 /* AddColorViewController.xib */,
-				2F961B602871A0A500B710B8 /* AddColor+TableView.swift */,
-				2F657A0428858D6B00C8D005 /* AddColorViewModel .swift */,
 			);
-			path = AddColorViewController;
+			path = AddColor;
 			sourceTree = "<group>";
 		};
 		2F961B6A2871CB3800B710B8 /* FavColorCell */ = {
@@ -330,6 +347,60 @@
 			path = FavColorCell;
 			sourceTree = "<group>";
 		};
+		2FA8485128913F1100AF4E1D /* CustomColor */ = {
+			isa = PBXGroup;
+			children = (
+				2FA848522891407700AF4E1D /* ColorPickerViewController.swift */,
+				2FA848532891407700AF4E1D /* ColorPickerViewController.xib */,
+			);
+			path = CustomColor;
+			sourceTree = "<group>";
+		};
+		2FA848562891542B00AF4E1D /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				2F657A0428858D6B00C8D005 /* AddColorViewModel .swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		2FA848572891543700AF4E1D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2F961B5C28719E1700B710B8 /* AddColorViewController.swift */,
+				2F961B5D28719E1700B710B8 /* AddColorViewController.xib */,
+				2F961B602871A0A500B710B8 /* AddColor+TableView.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		2FA848582892C18300AF4E1D /* CustomColorCell */ = {
+			isa = PBXGroup;
+			children = (
+				2FA848592892C1B300AF4E1D /* CustomColorCell.swift */,
+				2FA8485A2892C1B300AF4E1D /* CustomColorCell.xib */,
+				2FA8485D2898DCF800AF4E1D /* CustomColorCellViewModel.swift */,
+			);
+			path = CustomColorCell;
+			sourceTree = "<group>";
+		};
+		D8B854ED2B9A2571464545B0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4D8AC71810492AE62875452D /* Pods-multiViewTask.debug.xcconfig */,
+				01E657070FC5F74169F57287 /* Pods-multiViewTask.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		FAB4174DD4CCFCD5D4D7E270 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1EFD48E29838D36E78DC3EC9 /* Pods_multiViewTask.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -337,9 +408,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2F961AD1286853F600B710B8 /* Build configuration list for PBXNativeTarget "multiViewTask" */;
 			buildPhases = (
+				F63939DE749B16E4E494ACD2 /* [CP] Check Pods Manifest.lock */,
 				2F961AB9286853F400B710B8 /* Sources */,
 				2F961ABA286853F400B710B8 /* Frameworks */,
 				2F961ABB286853F400B710B8 /* Resources */,
+				71F614D2A86088739E657D96 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -393,16 +466,60 @@
 				2F657A192886FCAC00C8D005 /* Localizable.strings in Resources */,
 				2F961ACA286853F600B710B8 /* Assets.xcassets in Resources */,
 				2F961B692871CB2700B710B8 /* FavColorCell.xib in Resources */,
+				2FA8485C2892C1B300AF4E1D /* CustomColorCell.xib in Resources */,
 				2F961B56287193EB00B710B8 /* FavTableViewCell.xib in Resources */,
 				2F961B2B286AF59700B710B8 /* ColorCell.xib in Resources */,
 				2F961B52287193D700B710B8 /* DescriptionTableViewCell.xib in Resources */,
 				2F961B5F28719E1700B710B8 /* AddColorViewController.xib in Resources */,
 				2F961B4C287193B100B710B8 /* TitleTableViewCell.xib in Resources */,
 				2F961AC8286853F400B710B8 /* Main.storyboard in Resources */,
+				2FA848552891407700AF4E1D /* ColorPickerViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		71F614D2A86088739E657D96 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-multiViewTask/Pods-multiViewTask-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-multiViewTask/Pods-multiViewTask-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-multiViewTask/Pods-multiViewTask-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F63939DE749B16E4E494ACD2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-multiViewTask-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		2F961AB9286853F400B710B8 /* Sources */ = {
@@ -418,6 +535,7 @@
 				2FA84813288C859E00AF4E1D /* ColorsCD.xcdatamodeld in Sources */,
 				2F694C7A2887F1E20072E27E /* ColorInfoViewModel.swift in Sources */,
 				2F694C7C28882C9B0072E27E /* NotificationNameExtension.swift in Sources */,
+				2FA8485E2898DCF800AF4E1D /* CustomColorCellViewModel.swift in Sources */,
 				2F657A022885571E00C8D005 /* Constants.swift in Sources */,
 				2F961B102869B2BD00B710B8 /* Color.swift in Sources */,
 				2F961B6C2871D33700B710B8 /* UICollectionView+Extension.swift in Sources */,
@@ -427,6 +545,7 @@
 				2F961AC1286853F400B710B8 /* AppDelegate.swift in Sources */,
 				2F961B55287193EB00B710B8 /* FavTableViewCell.swift in Sources */,
 				2F961B30286C598E00B710B8 /* DrawingUtils.swift in Sources */,
+				2FA8485B2892C1B300AF4E1D /* CustomColorCell.swift in Sources */,
 				2F961AC3286853F400B710B8 /* SceneDelegate.swift in Sources */,
 				2F961B652871C72F00B710B8 /* FavCell+DataSource.swift in Sources */,
 				2F961B142869DDE300B710B8 /* UIView+Extension.swift in Sources */,
@@ -434,6 +553,7 @@
 				2F961B122869CD9300B710B8 /* ColorViewModel.swift in Sources */,
 				2F657A0028844F0700C8D005 /* ValidateInputDelegate.swift in Sources */,
 				2F961B4428717C3C00B710B8 /* UIStoryboardExtension.swift in Sources */,
+				2FA848542891407700AF4E1D /* ColorPickerViewController.swift in Sources */,
 				2F657A0528858D6B00C8D005 /* AddColorViewModel .swift in Sources */,
 				2F961B5E28719E1700B710B8 /* AddColorViewController.swift in Sources */,
 				2F961B37286C630700B710B8 /* ColorTableViewController.swift in Sources */,
@@ -595,6 +715,7 @@
 		};
 		2F961AD2286853F600B710B8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4D8AC71810492AE62875452D /* Pods-multiViewTask.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -622,6 +743,7 @@
 		};
 		2F961AD3286853F600B710B8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 01E657070FC5F74169F57287 /* Pods-multiViewTask.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

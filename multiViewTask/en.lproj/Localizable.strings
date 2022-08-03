@@ -12,4 +12,5 @@
 "colorInfo.confirmDeleteMessage.message" = "Are you sure you want to delete this color";
 "colorInfo.confirmDeleteMessage.deleteButton" = "Delete";
 "colorInfo.confirmDeleteMessage.cancelButton" = "Cancel";
-
+"favColorCell.addCustomColor" = "Custom Color";
+"customColor.colorPicker.titleLableText" = "ADD NEW COLOR TO YOUR FAV COLORS";

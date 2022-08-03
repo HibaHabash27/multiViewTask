@@ -13,6 +13,8 @@ extension String {
         case ColorInfoConfirmDeleteMsG = "colorInfo.confirmDeleteMessage.message"
         case ColorInfoConfirmDeleteButton = "colorInfo.confirmDeleteMessage.deleteButton"
         case ColorInfoConfirmDeleteCancelButton = "colorInfo.confirmDeleteMessage.cancelButton"
+        case FavColorCellAddCustomColorButtonTitle = "favColorCell.addCustomColor"
+        case CustomColorViewTitleLableText = "customColor.colorPicker.titleLableText"
 
         var string: String {
             return NSLocalizedString(self.rawValue, comment: "")

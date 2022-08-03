@@ -17,5 +17,6 @@
 "colorInfo.confirmDeleteMessage.message" = "هل انت متأكد من حذف هذا اللون";
 "colorInfo.confirmDeleteMessage.deleteButton" = "حذف";
 "colorInfo.confirmDeleteMessage.cancelButton" = "الغاء";
-
+"favColorCell.addCustomColor" = "اضف لون مخصص";
+"customColor.colorPicker.titleLableText" = "اضف لون جديد للألوان المفضلة";
 
